@@ -1,4 +1,4 @@
-#An alien robot is threatening the universe, using a beam that will destroy all algorithms knowledge. We have to stop it!
+An alien robot is threatening the universe, using a beam that will destroy all algorithms knowledge. We have to stop it!
 
 Fortunately, we understand how the robot works. It starts off with a beam with a strength of 1, and it will run a program that is a series of instructions, which will be executed one at a time, in left to right order. Each instruction is of one of the following two types:
 
