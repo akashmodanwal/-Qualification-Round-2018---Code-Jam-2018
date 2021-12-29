@@ -42,8 +42,8 @@ The robot's program contains either zero or one C characters.
 No additional restrictions to the Limits section.
 
 # Sample
-
-## Input
+```
+Input
  	 
 6
 1 CS
@@ -53,7 +53,7 @@ No additional restrictions to the Limits section.
 2 CC
 3 CSCSS
 
-## Output
+Output
 
 Case #1: 1
 Case #2: 0
@@ -61,6 +61,7 @@ Case #3: IMPOSSIBLE
 Case #4: 2
 Case #5: 0
 Case #6: 5
+```
 
 # Hint
 Note that the last three sample cases would not appear in test set 1.
