@@ -1,7 +1,8 @@
+# 2018
 Deep in Code Jam's secret algorithm labs, we devote countless hours to wrestling with one of the most complex problems of our time: efficiently sorting a list of integers into non-decreasing order. We have taken a careful look at the classic bubble sort algorithm, and we are pleased to announce a new variant.
 
 The basic operation of the standard bubble sort algorithm is to examine a pair of adjacent numbers, and reverse that pair if the left number is larger than the right number. But our algorithm examines a group of three adjacent numbers, and if the leftmost number is larger than the rightmost number, it reverses that entire group. Because our algorithm is a "triplet bubble sort", we have named it Trouble Sort for short.
-
+```
   TroubleSort(L): // L is a 0-indexed list of integers
     let done := false
     while not done:
@@ -10,6 +11,7 @@ The basic operation of the standard bubble sort algorithm is to examine a pair o
         if L[i] > L[i+2]:
           done = false
           reverse the sublist from L[i] to L[i+2], inclusive
+```
 For example, for L = 5 6 6 4 3, Trouble Sort would proceed as follows:
 
 First pass:
@@ -45,19 +47,20 @@ Special Note
 Notice that test set 2 for this problem has a large amount of input, so using a non-buffered reader might lead to slower input reading. In addition, keep in mind that certain languages have a small input buffer size by default.
 
 Sample
-
+```
 Input
- 	
-Output
- 
+
 2
 5
 5 6 8 4 3
 3
 8 9 7
 
+Output
+
 Case #1: OK
 Case #2: 1
+```
 
 Sample Case #1 is similar to the first one described in the problem statement. Trouble Sort correctly sorts this list, so the answer is OK.
 
